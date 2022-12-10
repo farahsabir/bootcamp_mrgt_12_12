@@ -128,615 +128,445 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .banner_section {
-        background-size: 100%;
+    .titlepage h2::after {
+        width: 58%;
     }
-    #main_slider a.carousel-control-next {
-        right: 116px;
-        top: 67%;
+    .about-box .titlepage h2::after {
+        width: 52%;
+        right: -221px;
     }
-    #main_slider a.carousel-control-prev {
-        left: 740px;
-        top: 67%;
+    .Nursery-img .text-box h3 {
+        padding: 111px 50px;
     }
     .logo {
-        width: 15%;
-        margin-right: 70px;
+        width: 65%;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-right: 23px;
-        padding-left: 23px;
-    }
-    .navbar {
-        padding: .5rem 25px;
+    .font_size_90 {
+        font-size: 50px;
     }
     .banner_taital {
-        padding-top: 50px;
+        font-size: 40px;
     }
-    .btn_main {
-        margin-top: 65px;
-        margin-bottom: 0px;
-    }
-    .about_main {
-        padding-left: 15px;
-    }
-    .about_img::after {
-        width: 590px;
-        height: 500px;
-    }
-    .icon_1 {
-        font-size: 12px;
-    }
-    .long_text {
-        font-size: 12px;
-    }
-    .box_middle {
-        margin: 0px 14.7px;
-    }
-    .philosophy_box_main {
-        width: 90%;
-        margin-left: 15px;
-    }
-    .quick_text {
-        font-size: 24px;
-    }
-    .number_text {
-        width: 70%;
-    }
-    .reader_text {
-        font-size: 20px;
+    .taital_main {
+        padding-left: 120px;
     }
     #my_slider a.carousel-control-prev {
-        left: 0px;
+        left: 45px;
+        top: 47%;
     }
     #my_slider a.carousel-control-next {
-        right: 0px;
+        left: 77px;
+        top: 66%;
     }
-    .looking_text {
-        font-size: 24px;
+    .button_main {
+        width: 60%;
+        margin-top: 30px;
     }
-    .map_text {
-        font-size: 16px;
+    .fashion_text {
+        padding-bottom: 25px;
+        font-size: 13px;
+    }
+    .category_text {
+        font-size: 20px;
+    }
+    .readable_text {
+        font-size: 27px;
+    }
+    .client_section::before {
+        margin-left: 90px;
+    }
+    #main_slider a.carousel-control-next {
+        right: 110px;
+    }
+    .banner_section {
+        padding-bottom: 10px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .navbar-toggler {
-        background-color: #fff;
+    .main-menu ul>li a {
+        padding: 7px 6px;
+    }
+    .main-menu ul>li a {
+        font-size: 14px;
+    }
+    .banner-main .carousel-caption h1 {
+        font-size: 36px;
+        padding-top: 0px;
+    }
+    .banner-main .carousel-caption p {
+        margin-bottom: 7px;
+        display: none;
+    }
+    .search_section {
+        display: none;
     }
     .logo {
-        width: 15%;
-        margin-right: 0;
-        top: 40px;
+        width: 50%;
     }
-    .navbar {
-        padding: .5rem 15px;
+    .header_section {
+        background-size: cover;
     }
-    .banner_section {
-        padding-top: 0px;
-        padding-bottom: 140px;
+    .font_size_90 {
+        font-size: 40px;
     }
     .banner_taital {
-        font-size: 60px;
+        font-size: 30px;
     }
-    .btn_main {
+    .image_1 {
+        padding-top: 30px;
+    }
+    .button_main {
         display: none;
-    }
-    #main_slider a.carousel-control-next {
-        right: 67px;
-        top: 85%;
-    }
-    #main_slider a.carousel-control-prev {
-        left: 565px;
-        top: 85%;
-    }
-    .about_main {
-        padding-left: 0;
-        padding-top: 0;
-    }
-    .about_taital {
-        font-size: 30px;
-    }
-    .about_img {
-        padding-top: 40px;
-    }
-    .about_img::after {
-        width: 410px;
-        height: 380px;
-        top: -10px;
-    }
-    .services_section::after {
-        display: none;
-    }
-    .services_section {
-        padding-top: 0px;
-    }
-    .services_taital {
-        padding-top: 0px;
-        font-size: 30px;
-    }
-    .box_left {
-        width: 100%;
-    }
-    .box_middle {
-        width: 100%;
-        margin: 0px 0px;
-        margin-top: 30px;
-    }
-    .box_right {
-        width: 100%;
-    }
-    .image_2 {
-        width: 100%;
-        top: 0;
-        position: initial;
-        text-align: right;
-    }
-    .project_section {
-        padding-top: 0px;
-    }
-    .project_taital {
-        font-size: 30px;
-    }
-    .project_menu li {
-        padding: 0px 2px;
-        margin-top: 30px;
-        font-size: 18px;
-    }
-    .image_3 {
-        margin-top: 20px;
-    }
-    .philosophy_taital {
-        font-size: 30px;
-    }
-    .philosophy_box_main {
-        width: 95%;
-        margin-left: 0;
-        padding: 0px 20px 20px 20px;
-    }
-    .philosophy_left {
-        width: 20%;
-    }
-    .quick_text {
-        font-size: 20px;
-        padding-top: 10px;
-    }
-    .number_text {
-        width: 85%;
-        font-size: 20px;
-        padding: 15px 0px;
-    }
-    .image_7 {
-        padding-top: 40px;
-    }
-    .reader_text {
-        font-size: 16px;
-        width: 87%;
-        padding: 2px;
     }
     #my_slider a.carousel-control-prev {
-        left: 7px;
-        top: 40%;
+        left: 10px;
+        top: 52%;
     }
     #my_slider a.carousel-control-next {
-        right: 7px;
-        top: 40%;
+        position: absolute;
+        left: 40px;
     }
-    .image_6 {
+    .taital_main {
+        padding-left: 80px;
+    }
+    .banner_section {
+        padding-bottom: 90px;
+        padding-top: 30px;
+    }
+    .banner_text {
+        font-size: 14px;
+    }
+    .main {
+        display: initial;
+    }
+    .category_text {
+        padding-bottom: 40px;
+    }
+    .category_section {
+        border-radius: 10px;
+        padding-bottom: 30px;
+    }
+    .bed_text {
+        padding-top: 20px;
+    }
+    .beds_section {
+        margin-top: 30px;
+    }
+    .beauty_box_1 {
         margin-top: 20px;
     }
-    .contact_taital {
-        font-size: 30px;
-    }
-    .mail_section {
+    .image_3 {
         width: 100%;
     }
-    .looking_text {
-        font-size: 16px;
-        padding-top: 17px;
+    .bed_text_1 {
+        text-align: center;
     }
-    .quote_bt {
-        margin: 0 auto;
-        float: initial;
-    }
-    .client_taital {
+    .feature_taital {
         font-size: 26px;
     }
-    .client_text {
-        width: 100%;
-        font-size: 15px;
-    }
-    .client_left {
-        width: 100%;
-    }
-    .client_right {
-        width: 100%;
-    }
-    .lorem_text {
-        width: 100%;
-        font-size: 16px;
-        padding: 20px;
-    }
-    .carousel-indicators {
-        bottom: -40px;
-    }
-    .map_text {
+    .readable_text {
         font-size: 18px;
-        margin: 10px 0px;
     }
-    .margin_90 {
-        margin: 0px 0px;
+    .image_8 {
+        width: 83%;
     }
-    .margin_top_90 {
-        margin-top: 0px;
+    .client_section::before {
+        display: none;
     }
-    .padding_top_90{
-        padding-top: 90px;
+    .client_section_2 {
+        width: 100%;
+        margin-left: 0px;
+        padding: 25px;
+        margin-top: 50px;
     }
-    .padding_bottom_90{
+    .client_section {
         padding-bottom: 90px;
+    }
+    .input-group {
+        width: 100%;
+    }
+    .input-group-text {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+    .dummy_text {
+        width: 100%;
+    }
+    .navbar {
+        padding: .5rem 0px;
+    }
+    .many_text {
+        line-height: 32px;
+        width: 34%;
+    }
+    .box_main {
+        width: 20%;
+    }
+    .fashion_text {
+        font-size: 14px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .navbar-toggler {
-        background-color: #fff;
+    .last {
+        display: none;
     }
-    .logo {
-        width: 15%;
-        margin-right: 0;
-        top: 40px;
+    .banner-main .carousel-caption {
+        top: 0%;
     }
-    .navbar {
-        padding: .5rem 15px;
+    .titlepage h2 {
+        font-size: 42px;
+        display: block;
     }
-    .banner_section {
-        padding-top: 0px;
-        padding-bottom: 75px;
-    }
-    .banner_taital {
-        font-size: 46px;
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 30px;
     }
     .btn_main {
+        margin-top: 58px;
+        width: 80%;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 30px;
+    }
+    .btn-primary {
+        margin-top: 0px;
+        margin-left: -7px;
+    }
+    .menu_main {
+        width: 95%;
+    }
+    .banner-main .carousel-caption h1 {
+        font-size: 50px;
+    }
+    .titlepage h2::after {
+        width: 88%;
+    }
+    .about-box .titlepage h2::after {
+        width: 45%;
+        right: -281px;
+    }
+    .search_section {
+        display: none;
+    }
+    .logo {
+        width: 50%;
+    }
+    .header_section {
+        background-size: cover;
+        background: #4d33de;
+    }
+    .font_size_90 {
+        font-size: 40px;
+    }
+    .banner_taital {
+        font-size: 30px;
+    }
+    .image_1 {
+        padding-top: 30px;
+    }
+    .button_main {
+        display: none;
+    }
+    #my_slider .carousel-control-prev {
+        display: none;
+    }
+    #my_slider .carousel-control-next {
+        display: none;
+    }
+    .banner_section {
+        padding-bottom: 90px;
+    }
+    .main {
+        display: initial;
+    }
+    .category_text {
+        padding-bottom: 40px;
+    }
+    .category_section {
+        border-radius: 10px;
+    }
+    .beds_section {
+        margin-top: 30px;
+    }
+    .beauty_box_1 {
+        margin-top: 20px;
+    }
+    .image_3 {
+        width: 100%;
+    }
+    .bed_text_1 {
+        text-align: center;
+    }
+    .feature_taital {
+        font-size: 26px;
+    }
+    .readable_text {
+        font-size: 12px;
+    }
+    .image_8 {
+        width: 83%;
+    }
+    .client_section::before {
+        display: none;
+    }
+    .client_section_2 {
+        width: 100%;
+        margin-left: 0px;
+        padding: 25px;
+        margin-top: 50px;
+    }
+    #main_slider a.carousel-control-prev {
         display: none;
     }
     #main_slider a.carousel-control-next {
-        right: 25px;
-        top: 70%;
-    }
-    #main_slider a.carousel-control-prev {
-        left: 415px;
-        top: 70%;
-    }
-    .about_main {
-        padding-left: 0;
-        padding-top: 0;
-    }
-    .about_taital {
-        font-size: 30px;
-    }
-    .about_img {
-        padding-top: 40px;
-    }
-    .about_img::after {
-        width: 600px;
-        height: 500px;
-        top: 10px;
-    }
-    .services_section::after {
         display: none;
     }
-    .services_section {
-        padding-top: 0px;
+    .client_section {
+        padding-bottom: 90px;
     }
-    .services_taital {
-        padding-top: 0px;
+    .newsletter_taital {
         font-size: 30px;
     }
-    .box_left {
+    .input-group {
         width: 100%;
     }
-    .box_middle {
-        width: 100%;
-        margin: 0px 0px;
-        margin-top: 30px;
-    }
-    .box_right {
-        width: 100%;
-    }
-    .image_2 {
-        width: 100%;
-        top: 0;
-        position: initial;
-        text-align: right;
-    }
-    .project_section {
-        padding-top: 0px;
-    }
-    .project_taital {
-        font-size: 30px;
-    }
-    .project_menu li {
-        padding: 0px 2px;
-        margin-top: 10px;
+    .input-group-text {
+        padding: 8px 30px;
         font-size: 14px;
     }
-    .project_menu li a {
-        padding: 10px 9px;
-    }
-    .project_menu {
-        text-align: left;
-    }
-    .image_3 {
-        margin-top: 20px;
-    }
-    .philosophy_taital {
-        font-size: 30px;
-    }
-    .philosophy_box_main {
+    .dummy_text {
         width: 100%;
-        margin-left: 0;
-        padding: 0px 20px 20px 20px;
     }
-    .philosophy_left {
-        width: 20%;
+    .navbar {
+        padding: .5rem 0px;
     }
-    .quick_text {
-        font-size: 26px;
-        padding-top: 10px;
+    .many_text {
+        line-height: 32px;
     }
-    .number_text {
-        width: 85%;
+    .fashion_text {
         font-size: 20px;
-        padding: 15px 0px;
-    }
-    .image_7 {
-        padding-top: 40px;
-    }
-    .reader_text {
-        font-size: 12px;
-        width: 87%;
-        padding: 2px;
-    }
-    #my_slider a.carousel-control-prev {
-        left: 7px;
-        top: 40%;
-    }
-    #my_slider a.carousel-control-next {
-        right: 7px;
-        top: 40%;
-    }
-    .image_6 {
-        margin-top: 20px;
-    }
-    .contact_taital {
-        font-size: 30px;
-    }
-    .mail_section {
-        width: 100%;
-    }
-    .newslatter_main {
-        display: initial;
-    }
-    .looking_text {
-        font-size: 16px;
-        padding-top: 0px;
-    }
-    .quote_bt {
-        margin: 0 auto;
-        float: initial;
-    }
-    .client_taital {
-        font-size: 26px;
-    }
-    .client_text {
-        width: 100%;
-        font-size: 15px;
-    }
-    .client_left {
-        width: 100%;
-    }
-    .client_right {
-        width: 100%;
-    }
-    .lorem_text {
-        width: 100%;
-        font-size: 16px;
-        padding: 20px;
-    }
-    .carousel-indicators {
-        bottom: -40px;
-    }
-    .map_text {
-        font-size: 18px;
-        margin: 10px 0px;
-    }
-    .margin_90 {
-        margin: 0px 0px;
-    }
-    .margin_top_90 {
-        margin-top: 0px;
-    }
-    .padding_top_90{
-        padding-top: 90px;
-    }
-    .padding_bottom_90{
-        padding-bottom: 90px;
     }
 }
 
 @media (max-width: 575px) {
-    .navbar-toggler {
-        background-color: #fff;
+    .last {
+        display: none;
+    }
+    .carousel-caption {
+        display: none;
+    }
+    .header {
+        padding-top: 0px;
+    }
+    .btn-primary {
+        max-width: 126px;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    .banner-main .carousel-caption h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .search_section {
+        display: none;
     }
     .logo {
-        width: 30%;
-        margin-right: 10px;
-        top: 5px;
+        width: 50%;
     }
-    .navbar {
-        padding: .5rem 15px;
+    .header_section {
+        background-size: cover;
+        background: #4d33de;
     }
-    .banner_section {
-        padding-top: 0px;
-        padding-bottom: 40px;
+    .font_size_90 {
+        font-size: 40px;
     }
     .banner_taital {
-        font-size: 34px;
-        padding-top: 20px;
+        font-size: 30px;
     }
-    .btn_main {
+    .image_1 {
+        padding-top: 30px;
+    }
+    .button_main {
+        display: none;
+    }
+    #my_slider .carousel-control-prev {
+        display: none;
+    }
+    #my_slider .carousel-control-next {
+        display: none;
+    }
+    .banner_section {
+        padding-bottom: 90px;
+    }
+    .main {
+        display: initial;
+    }
+    .category_text {
+        padding-bottom: 40px;
+    }
+    .category_section {
+        border-radius: 10px;
+    }
+    .beds_section {
+        margin-top: 30px;
+    }
+    .beauty_box_1 {
+        margin-top: 20px;
+    }
+    .image_3 {
+        width: 100%;
+    }
+    .bed_text_1 {
+        text-align: center;
+    }
+    .feature_taital {
+        font-size: 26px;
+    }
+    .readable_text {
+        font-size: 20px;
+    }
+    .image_8 {
+        width: 100%;
+    }
+    .client_section::before {
+        display: none;
+    }
+    .client_section_2 {
+        width: 100%;
+        margin-left: 0px;
+        padding: 25px;
+        margin-top: 0px;
+    }
+    #main_slider a.carousel-control-prev {
         display: none;
     }
     #main_slider a.carousel-control-next {
         display: none;
     }
-    #main_slider a.carousel-control-prev {
-        display: none;
-    }
-    .about_main {
-        padding-left: 0;
-        padding-top: 0;
-    }
-    .about_taital {
-        font-size: 30px;
-    }
-    .about_img {
-        padding-top: 40px;
-    }
-    .about_img::after {
-        width: 400px;
-        height: 290px;
-        top: 10px;
-    }
-    .services_section::after {
-        display: none;
-    }
-    .services_section {
-        padding-top: 0px;
-    }
-    .services_taital {
-        font-size: 30px;
-    }
-    .box_left {
-        width: 100%;
-    }
-    .box_left_one {
-        width: 100%;
-    }
-    .box_right_one {
-        width: 100%;
-    }
-    .box_middle {
-        width: 100%;
-        margin: 0px 0px;
-        margin-top: 30px;
-    }
-    .box_right {
-        width: 100%;
-    }
-    .image_2 {
-        width: 100%;
-        top: 0;
-        position: initial;
-        text-align: right;
-    }
-    .project_section {
-        padding-top: 0px;
-    }
-    .project_taital {
-        font-size: 30px;
-    }
-    .project_menu li {
-        padding: 0px 15px;
-        margin-top: 10px;
-        float: none;
-        display: flex;
-    }
-    .project_menu {
-        text-align: left;
-    }
-    .image_3 {
-        margin-top: 20px;
-    }
-    .philosophy_taital {
-        font-size: 30px;
-    }
-    .philosophy_box_main {
-        width: 100%;
-        margin-left: 0;
-        padding: 0px 20px 20px 20px;
-    }
-    .quick_text {
-        font-size: 18px;
-        padding-top: 10px;
-    }
-    .number_text {
-        width: 85%;
-        font-size: 20px;
-        padding: 10px 0px;
-    }
-    .image_7 {
-        padding-top: 40px;
-    }
-    .reader_text {
-        font-size: 20px;
-    }
-    .image_6 {
-        margin-top: 20px;
-    }
-    .contact_taital {
-        font-size: 30px;
-    }
-    .mail_section {
-        width: 100%;
-    }
-    .newslatter_main {
-        display: initial;
-    }
-    .looking_text {
-        font-size: 16px;
-        padding-top: 0px;
-    }
-    .quote_bt {
-        margin: 0 auto;
-        float: initial;
-    }
-    .client_taital {
-        font-size: 26px;
-    }
-    .client_text {
-        width: 100%;
-        font-size: 15px;
-    }
-    .client_left {
-        width: 100%;
-    }
-    .client_right {
-        width: 100%;
-    }
-    .lorem_text {
-        width: 100%;
-        font-size: 16px;
-        padding: 20px;
-    }
-    .carousel-indicators {
-        bottom: -40px;
-    }
-    .map_text {
-        font-size: 18px;
-        margin: 10px 0px;
-    }
-    .margin_90 {
-        margin: 0px 0px;
-    }
-    .margin_top_90 {
-        margin-top: 0px;
-    }
-    .padding_top_90{
-        padding-top: 90px;
-    }
-    .padding_bottom_90{
+    .client_section {
         padding-bottom: 90px;
     }
+    .newsletter_taital {
+        font-size: 30px;
+    }
+    .input-group {
+        width: 100%;
+    }
+    .input-group-text {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .dummy_text {
+        width: 100%;
+    }
+    .navbar {
+        padding: .5rem 0px;
+    }
+    .fashion_text {
+        font-size: 20px;
+    }
 }
+
